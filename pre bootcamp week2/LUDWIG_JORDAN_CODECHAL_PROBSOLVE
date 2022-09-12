@@ -1,0 +1,21 @@
+/*
+    1. need to write a code that will go through the written paragraph to see something was written in first, second, or third person. then when it is gone through it needs to be determined if it was first, second, or third
+    2.  
+    function probSolving (paragraph){
+        let paragraph = x
+            if (x === "I"|| "me"|| "my"|| "mine" || "myself"){
+            console.log("first person");
+            }
+            if (x === "you" || "your" || "yours" || "yourself" || "yourselves"){
+                console.log("second person");
+            }
+            if (x === "he", "him", "his", "himself" || "she" || "her" || "hers" || "herself" || "it" || "its" || "itself" || "they" ||"them" || "their" || "theirs" ||"themselves"){
+                console.log("Third Person");
+            }
+        }
+        probSolving(paragraph);
+
+        3. The hardest part about problem solving is getting all variables and getting the code right. now i dont believe the code i wrote will get the right answer.
+            the paramater paragraph needs to be set to the writing and the code needs to go through paragraph and find the string that goes with the if statment.
+            rough way to explain how to get the outcome.
+*/

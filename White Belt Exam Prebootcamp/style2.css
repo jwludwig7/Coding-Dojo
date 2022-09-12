@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+    /* ADD A SANS SERIF DEFAULT FONT HERE */
+}
+
+body {
+    /* CHANGE THE BACKGROUND COLOR TO WHEAT */
+    background-color: wheat;
+}
+
+p,
+img {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: serif;
+    font-style: italic;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: white;
+    border-left-style: solid;
+    border-left-color: lightgrey;
+    border-left-width: 2px;
+    border-right-style: solid;
+    border-right-color: lightgray;
+    border-right-width: 2px;
+
+    /* CHANGE THE BACKGROUND COLOR TO WHITE
+    AND ADD A LIGHT GREY BORDER ON THE LEFT AND RIGHT */
+}
+
+#header {
+    padding: 20px;
+    color: white;
+    background-color: #79b5f1;
+    /* CHANGE THE TEXT COLOR TO WHITE AND
+    THE BACKGROUND COLOR SHOULD BE #79b5f1 */
+}
+
+#nav {
+    background-color: lightgray;
+    text-decoration: none;
+    list-style: none;
+    width: auto;
+    padding: 20px;
+    display: flex;
+    
+    
+    /* CHANGE THE BACKGROUND COLOR TO LIGHT GRAY
+    REMOVE THE BULLET POINTS
+    SHOULD YOU CHANGE THE WIDTH?
+    WHAT ABOUT PADDING?
+    DISPLAY THIS CONTAINER'S CHILDREN SIDE BY SIDE */
+}
+
+#nav a {
+    /* REMOVE THE UNDERLINES
+    ADD SPACE BETWEEN THE LINKS */
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}

@@ -1,0 +1,50 @@
+/*
+    change all the var to let
+    make sure all the arr.length have the right label aka arr1.length, arr2.legnth ,,,
+    frist for loop is to print each number of the array
+    second for loop is to print the sum of the numbers in the array and the numbers in the array
+    thrid for loop will go through the array and print only the numbers greater than 5
+    bonus modify the third code for the numbers that are not greater than 5 to be replaced with a sting of 'No Dice', string should NOT be printed
+*/
+
+let arr1 = [8, 6, 7, 5, 3, 0, 9];
+for (let i = 0; i < arr1.length; i++) {   
+    console.log(arr1[i]);
+}
+
+let arr2 = [4, 7, 13, 13, 19, 37, -2];
+let sum = 0
+    for (let i = 0; i < arr2.length; i++) {   
+    sum=sum + arr2[i];
+    console.log(sum, arr2[i]);
+    }
+
+let arr3 = [6, 2, 12, 14, -24, 5, 0];    
+let Y = 5
+    
+    for (let i = 0; i < arr3.length; i++) {
+        if (arr3[i] <= Y) {  
+            //console.log("No Dice");
+        }
+        else {
+            console.log(arr3[i]);
+        }
+    }
+    
+function ninjaBonus(array) {
+let Y = 5
+let ninja = []
+    for (let i = 0; i < arr3.length; i++) {
+        if (arr3[i] <= Y) {  
+            ("No Dice");
+
+            }
+        else {
+            ninja.push(arr3[i]);           
+        }
+    }
+    return ninja;
+}
+
+let results = ninjaBonus(arr3);
+console.log(results);

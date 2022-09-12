@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+.clean {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 20px;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.makeBig {
+    height: 200px;
+    width: 200px;
+}
+
+#list {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    background-color: blanchedalmond;
+    text-decoration: none;
+}
