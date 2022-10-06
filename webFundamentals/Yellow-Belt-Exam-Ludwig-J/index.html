@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- top-bar -->
+    <div class="top-bar">
+        <h2>Live Scores</h2>        
+        <div>
+            <p>SCJ Ninjas - 314</p>
+            <p>NS Pirates - 159</p>
+        </div>
+        <div>
+            <p>CHI Samurai - 0</p>
+            <p>TUL Wizards - 0</p>
+        </div>
+        <div>
+            <p>BOS Hackers - 13</p>
+            <p>TYO Youkai - 37</p>
+        </div>
+        <div>
+            <p>BOI Knights - 5</p>
+            <p>SEA Sea Lions - 11</p>
+        </div>
+    </div>
+<!-- nav-bar -->
+    <div class="nav-bar">
+        <h1>DSNN</h1>
+            <h3>Football</h3>
+            <h3>Basketball</h3>
+            <h3>Baseball</h3>
+            <h3>Soccer</h3>
+            <h3>More...</h3>
+        <div class="nav-bar-img">
+            <img src="assets/search-light.png" alt="search-light">
+            <img src="assets/hamburger-light.png" alt="hamburger-light">
+            <img src="assets/user-circle-light.png" alt="user-circle-light">
+        </div>
+    </div>
+<!-- main ish -->
+    <main>
+<!-- left card top -->
+        <div>
+            <div class="left-top-c">
+                <h1>Top Stories</h1>
+                <h4>Ninjas up big in 5th</h4>
+                <h4>Best sports cities</h4>
+                <h4>Choi joins Hall of Fame</h4>
+                <h4>Tournament underway</h4>
+                <h4>Samuri at Wizards...</h4>
+            </div>
+    
+<!-- left card middle  -->
+    
+            <div class="left-card-m">
+                <h4>Customize your DSNN</h4>
+                <div>
+                    <button class="btn-sign-in">Sign In</button> 
+                    <button class="btn-sign-up">Sign Up</button>   
+                </div>
+            </div>
+    
+<!-- left card bottom -->
+    
+            <div class="sub left-card-b"  >
+                <h4>Never miss a play</h4>
+                <div>
+                    <button class="btn-sub" onclick="sub(this)">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    
+<!-- big card -->
+    
+        <div class="big-card">
+                <div class="top-part">
+                    <div class="flex1">
+                        <img class="red-img" src="assets/rec.png" alt="">
+                        <h1 class="clr-red">Live</h1>
+                    </div>
+                    <h1>Ninjas Leading Pirates</h1>
+                </div>
+                
+            <div class="flex">
+                <div class="col">
+                    <img src="assets/sjc-ninjas.png" alt="sjc-ninjas">
+                    <h4>San Jose</h4>
+                    <h1>Ninjas</h1>
+                    <p>(10 W - 3 L)</p>
+                    <h1 id="count" onclick="score1(this)">319</h1>
+                </div>
+
+                <div class="col">
+                    <h1>vs</h1>
+                    <p>0:13 remaining 5th period</p>
+                </div>
+
+                <div class="col">
+                    <img src="assets/ns-pirates.png" alt="ns-pirates">
+                    <h4>Nova Scotia</h4>
+                    <h1>Pirates</h1>
+                    <p>(12 W - 2 L)</p>
+                    <h1 id="count2" onclick="score2(this)">164</h1>
+                </div>           
+            </div>
+            <p class="big-card-p">A conservative match between the two top-preforming sides in the Central League Division with a number 1 seed at stake... <a href="#">get live updates</a></p>
+        </div>
+<!-- main ishh -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

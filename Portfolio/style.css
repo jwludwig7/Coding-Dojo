@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("img/fabric_1.png");
+    /* color: rgb(38,44,62); */    
+}
+
+/* nav bar */
+
+.resize img {
+    height: 30px;
+    align-items: center;
+}
+
+.resize {
+    gap: 20%;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.resize-1 {
+    padding: 10px 0px;
+}
+
+/* 1st section */
+
+video {
+    width: 100%;
+}
+
+.center h1 {
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    width: 100%;
+    font-size: 40pt;
+}
+
+.center h2 {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    width: 100%;
+}
+
+/* about me */
+
+.bout-me img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.bout-me {
+    margin: 20px;
+}

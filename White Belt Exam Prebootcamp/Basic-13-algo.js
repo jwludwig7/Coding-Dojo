@@ -14,8 +14,8 @@ PrintOdds1To255()
 Print all odd integers from 1 to 255.
 */
 function PrintOdds1To255() {
-    for (let i = 1; i <256; i++) {
-        if(i % 2===1){
+    for (let i = 1; i < 256; i++) {
+        if (i % 2 === 1) {
             console.log(i)
         }
     }
@@ -29,7 +29,7 @@ print the sum so far.
 */
 function PrintIntsAndSum0To255() {
     let sum = 0;
-    for(let i = 0; i < 256; i++) {
+    for (let i = 0; i < 256; i++) {
         console.log(i);
         sum += i
     }
@@ -41,9 +41,9 @@ PrintIntsAndSum0To255();
 Iterate through a given array, printing each value.
 PrintArrayVals(arr)
 */
-let arr1 = [1,2,3,4];
+let arr1 = [1, 2, 3, 4];
 function PrintArrayVals(arr) {
-    for(let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         console.log(arr[i]);
     }
 }
@@ -53,11 +53,11 @@ PrintArrayVals(arr1)
 PrintMaxOfArray(arr)
 Given an array, find and print its largest element.
 */
-let arr2 = [1,40,5,7,8]
+let arr2 = [1, 40, 5, 7, 8]
 function PrintMaxOfArray(arr) {
     let max = arr[0];
-    for(var i = 1; i < arr.length; i++){
-        if(max < arr[i]){
+    for (var i = 1; i < arr.length; i++) {
+        if (max < arr[i]) {
             max = arr[i];;
         }
     }
@@ -69,10 +69,10 @@ PrintMaxOfArray(arr2);
 PrintAverageOfArray(arr)
 Analyze an array’s values and print the average.
 */
-let arr3 = [50,52];
+let arr3 = [50, 52];
 function PrintAverageOfArray(arr) {
     let sum = 0;
-    for(let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
     console.log(sum / arr.length);
@@ -87,8 +87,8 @@ and 255 (inclusive).
 
 function ReturnOddsArray1To255() {
     let array = [];
-    for(let i = 1; i < 256; i++) {
-        if(i % 2 !==0) {
+    for (let i = 1; i < 256; i++) {
+        if (i % 2 !== 0) {
             array.push(i);
         }
     }
@@ -102,9 +102,9 @@ SquareArrayVals(arr)
 Square each value in a given array, returning that
 same array with changed values.
 */
-let arr4 = [2,2,3,4,5]
+let arr4 = [2, 2, 3, 4, 5]
 function SquareArrayVals(arr) {
-    for(let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         arr[i] = arr[i] * arr[i];
     }
     return arr;
@@ -117,10 +117,10 @@ ReturnArrayCountGreaterThanY(arr, y)
 Given an array and a value Y, count and print the
 number of array values greater than Y.
 */
-let arr5 = [1,23,3,4,6,7];
+let arr5 = [1, 23, 3, 4, 6, 7];
 function ReturnArrayCountGreaterThanY(arr, y) {
     let count = 0;
-    for(let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         if (arr[i] > y) {
             count++;
         }
@@ -135,10 +135,10 @@ ZeroOutArrayNegativeVals(arr)
 Return the given array, after setting any negative
 values to zero.
 */
-let arr6 = [-1,2,3,-4,-5,6,-7];
+let arr6 = [-1, 2, 3, -4, -5, 6, -7];
 function ZeroOutArrayNegativeVals(arr) {
     for (let i = 0; i < arr.length; i++) {
-        if(arr[i] < 0) {
+        if (arr[i] < 0) {
             arr[i] = 0
         }
     }
@@ -152,20 +152,20 @@ PrintMaxMinAverageArrayVals(arr)
 Given an array, print the max, min and average
 values for that array.
 */
-let arr7 = [2,3,6,7,8,9]
+let arr7 = [2, 3, 6, 7, 8, 9]
 function PrintMaxMinAverageArrayVals(arr) {
     let max = arr[0];
     let min = arr[0];
     let sum = arr[0];
 
-    for(let i = 1; i < arr.length; i++) {
+    for (let i = 1; i < arr.length; i++) {
         if (arr[i] > max) {
             max = arr[i];
         }
         if (arr[i] < min) {
             min = arr[i];
         }
-        sum +=arr[i];
+        sum += arr[i];
     }
     let avg = sum / arr.length;
     let arrnew = [max, min, avg];
@@ -181,11 +181,11 @@ Given an array, move all values forward (to the left)
 by one index, dropping the first value and leaving a 0
 (zero) value at the end of the array.
 */
-let arr8 = [1,2,3]
+let arr8 = [1, 2, 3]
 function ShiftArrayValsLeft(arr) {
-   arr.shift();
-   arr.push(0);
-   
+    arr.shift();
+    arr.push(0);
+
     console.log(arr);
 }
 
