@@ -9,7 +9,8 @@ def index():
 
 @app.route('/dojos')
 def dojos():
-    return render_template("dojos.html", dojos=Dojos.get_all())
+    dojos=Dojos.get_all()
+    return render_template("dojos.html", dojos=dojos )
 
 @app.route('/dojos/new')
 def new():

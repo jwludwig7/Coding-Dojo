@@ -1,0 +1,5 @@
+Get - https://pokeapi.co/api/v2/pokemon/1
+Get - https://pokeapi.co/api/v2/pokemon/2
+Get - https://pokeapi.co/api/v2/pokemon/3
+Get - https://pokeapi.co/api/v2/pokemon/4
+Get - https://pokeapi.co/api/v2/pokemon/5

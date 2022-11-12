@@ -1,0 +1,5 @@
+pipenv install flask flask-bcrypt pymysql
+
+pipenv shell
+
+python server.py

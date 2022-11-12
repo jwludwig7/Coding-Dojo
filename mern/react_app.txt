@@ -1,0 +1,33 @@
+npx create-react-app client
+npm start
+
+-------------------------------
+
+npm i bootstrap
+
+npm install axios
+
+npm install react-router-dom
+
+============
+backend
+============
+npm init -y
+
+npm i express mongoose cors 
+
+type null > server.js
+
+npm  install -g nodemon 
+
+nodemon server.js
+
+-------------------------------
+
+cd c:/"Program Files"/MongoDB/Server/5.0/bin/
+
+mongo.exe
+
+--------------------------------
+
+rafce

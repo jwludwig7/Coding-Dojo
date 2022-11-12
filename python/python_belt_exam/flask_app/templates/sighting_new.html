@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Sasquatch Websighting</title>
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+                <h1>Sasquatch Websighting</h1>
+                <div>
+                    <div>
+                        <h4>{{logged_user.first_name}} {{logged_user.last_name}}</h4>
+                    </div>
+                    <a href="/dashboard" class="btn btn-primary">Dashboard</a>
+                    <a href="/users/logout" class="btn btn-danger">Log out</a>
+                </div>  
+        </div>
+            {% for message in get_flashed_messages() %}
+            <p class="text-danger">{{message}}</p>
+            {% endfor %}
+            <div>
+                <h4>Reported Sightings</h4>
+                <form action="/sightings/create" method="post" class="form-control flex-column d-flex">
+                    <label for="location" class="form-label">Location:</label>
+                    <input type="text" name="location" id="location" class="form-control">
+                    <label for="what_happened" class="form-label">What Happened:</label>
+                    <textarea name="what_happened" id="what_happened" cols="30" rows="5" class="form-control"></textarea>
+                    <label for="date" class="form-label">Date of Sighting</label>
+                    <input type="date" name="date" id="date" class="form-control">
+                    <label for="num_of" class="form-label"># of Sasquatches:</label>
+                    <input type="number" name="num_of" id="num_of" class="form-control">
+                    <button class="btn btn-primary">Report</button>                       
+                </form>
+            </div>
+    </div>
+
+
+
+</body>
+</html>
