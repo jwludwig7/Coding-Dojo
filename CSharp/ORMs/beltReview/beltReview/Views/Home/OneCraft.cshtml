@@ -1,0 +1,22 @@
+@model Craft
+
+<div class="d-flex justify-content-around">
+    <div class="boarder rounded shadow p-2">
+<h3>@Model.Title</h3>
+<img src="@Model.Image" alt="@Model.Title" class="oneImage">
+<h4>By: @Model.Creator.Username</h4>
+<h4>@Model.Price.ToString("C")</h4>
+<h4>@Model.Quantity in Stock</h4>
+<h4>@Model.Description</h4>
+    </div>
+    <div>
+        <h3>Order Now</h3>
+        @{
+            Order newOrder = new Order()
+            {
+                CraftId = Model.CraftId
+            };
+        }
+        @await Html.PartialAsync("_OrderCraft", newOrder)
+    </div>
+</div>

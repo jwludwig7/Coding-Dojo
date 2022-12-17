@@ -1,0 +1,17 @@
+@model MyViewModel
+
+<div class="text-center">
+    <h1>@Model.Category.Name</h1>
+</div>
+
+<div class="d-flex justify-content-evenly">
+    <div class="flex-1">
+        <h3>Products</h3>
+        @foreach (Association a in Model.AllAssociations)
+        {
+            <h5>@a.Product.Name</h5>
+        }
+
+</div>
+    @await Html.PartialAsync("_AddCategory", Model.Association)
+</div>

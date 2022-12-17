@@ -1,0 +1,44 @@
+@model Dish
+
+<div>
+    <h1>Edit @Model.Name</h1>
+</div>
+
+<div>
+    <form asp-action="UpdateDish" method="post" asp-controller="Home" asp-route-DishId="@Model.DishId"
+        class="border border-primary rounded p-2 bg-light shadow">
+        <div>
+            <label asp-for="Chef">Chef's Name</label>
+            <input asp-for="Chef" class="form-control mb-3">
+            <span asp-validation-for="Chef" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Name">Name of Dish</label>
+            <input asp-for="Name" class="form-control mb-3">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Calories"># of Calories</label>
+            <input asp-for="Calories" class="form-control mb-3">
+            <span asp-validation-for="Calories" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Tastiness">Tastiness</label>
+            <select asp-for="Tastiness" class="form-select mb-3">
+                <option value="" disabled selected hidden>Select a Tastiness</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <span asp-validation-for="Tastiness" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Description">Description</label>
+            <textarea asp-for="Description" class="form-control mb-3"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <button class="btn btn-primary p-1" type="submit">Edit Dish</button>
+    </form>
+</div>

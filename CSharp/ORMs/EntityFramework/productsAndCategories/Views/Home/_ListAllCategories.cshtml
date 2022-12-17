@@ -1,0 +1,14 @@
+
+<div>
+    <h1>All Categories</h1>
+</div>
+
+<div>
+    @foreach (Category p in ViewBag.AllCategories)
+    {
+    <a href="categories/@p.CategoryId">
+        <p>@p.Name</p>
+    </a>
+    }
+
+</div>

@@ -1,0 +1,39 @@
+@model Survey 
+
+<div class="d-flex justify-content-center p-2">
+    <div class="border border-secondary rounded p-4 bg-light">
+
+        <div>
+            <h2>Submitted Info</h2>
+        </div>
+
+        <div>
+            <h5>Name:</h5>
+            <h6 class="text-info">@Model.Name</h6>
+        </div>
+
+        <div>
+            <h5>Dojo Location:</h5>
+            <h6 class="text-info">@Model.Location</h6>
+        </div>
+
+        <div>
+            <h5>Favorite Language:</h5>
+            <h6 class="text-info">@Model.Fav</h6>
+        </div>
+
+        <div>
+            <h5>Comment (optional):</h5>
+            <span>@{
+                    if (Model.Comment == null)
+                    {
+                        <p class="text-muted">No Comment</p>
+                    }
+                }
+            </span>
+            <h6 class="text-info">@Model.Comment</h6>
+        </div>
+
+        <button class="btn btn-secondary "><a href="/" class="text-white text-decoration-none">Go Back</a> </button>
+    </div>
+</div>

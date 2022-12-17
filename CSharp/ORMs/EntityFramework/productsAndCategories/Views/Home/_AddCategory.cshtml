@@ -1,0 +1,23 @@
+@model Association
+
+
+<div class="flex-1">
+    <h3>Add Product</h3>
+    <form asp-action="AddCategory" asp-controller="Home" method="post">
+        <div>
+            <input asp-for="CategoryId" value="@ViewBag.OneCategory.CategoryId" type="hidden">
+        </div>
+
+        <div>
+            <label asp-for="ProductId"></label>
+            <select asp-for="ProductId" class="form-select">
+                @foreach (Product p in ViewBag.AllProducts)
+                {
+                    <option value="@p.ProductId"> @p.Name</option>
+                }
+
+            </select>
+        </div>
+        <button value="Submit" class="btn btn-warning">Add</button>
+    </form>
+</div>

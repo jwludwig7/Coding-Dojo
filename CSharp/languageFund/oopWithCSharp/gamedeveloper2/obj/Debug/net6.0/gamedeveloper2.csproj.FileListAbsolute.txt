@@ -1,0 +1,15 @@
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\bin\Debug\net6.0\gamedeveloper2.exe
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\bin\Debug\net6.0\gamedeveloper2.deps.json
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\bin\Debug\net6.0\gamedeveloper2.runtimeconfig.json
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\bin\Debug\net6.0\gamedeveloper2.dll
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\bin\Debug\net6.0\gamedeveloper2.pdb
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\gamedeveloper2.csproj.AssemblyReference.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\gamedeveloper2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\gamedeveloper2.AssemblyInfoInputs.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\gamedeveloper2.AssemblyInfo.cs
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\gamedeveloper2.csproj.CoreCompileInputs.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\gamedeveloper2.dll
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\refint\gamedeveloper2.dll
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\gamedeveloper2.pdb
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\gamedeveloper2.genruntimeconfig.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\gamedeveloper2\obj\Debug\net6.0\ref\gamedeveloper2.dll

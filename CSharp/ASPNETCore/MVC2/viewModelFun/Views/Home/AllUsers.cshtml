@@ -1,0 +1,10 @@
+@Model List<User>
+    <div>
+        <h1>Here is a list of Users</h1>
+        @{
+            foreach(User u in Model)
+            {
+                <p>@u.FirstName @u.LastName</p>
+            }
+        }
+    </div>

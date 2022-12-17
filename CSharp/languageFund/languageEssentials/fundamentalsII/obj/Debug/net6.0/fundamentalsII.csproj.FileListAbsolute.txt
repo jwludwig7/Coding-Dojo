@@ -1,0 +1,15 @@
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\bin\Debug\net6.0\fundamentalsII.exe
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\bin\Debug\net6.0\fundamentalsII.deps.json
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\bin\Debug\net6.0\fundamentalsII.runtimeconfig.json
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\bin\Debug\net6.0\fundamentalsII.dll
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\bin\Debug\net6.0\fundamentalsII.pdb
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\fundamentalsII.csproj.AssemblyReference.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\fundamentalsII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\fundamentalsII.AssemblyInfoInputs.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\fundamentalsII.AssemblyInfo.cs
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\fundamentalsII.csproj.CoreCompileInputs.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\fundamentalsII.dll
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\refint\fundamentalsII.dll
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\fundamentalsII.pdb
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\fundamentalsII.genruntimeconfig.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\languageEssentials\fundamentalsII\obj\Debug\net6.0\ref\fundamentalsII.dll

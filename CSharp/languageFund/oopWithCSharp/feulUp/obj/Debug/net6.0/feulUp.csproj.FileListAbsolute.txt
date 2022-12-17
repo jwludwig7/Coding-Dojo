@@ -1,0 +1,15 @@
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\bin\Debug\net6.0\feulUp.exe
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\bin\Debug\net6.0\feulUp.deps.json
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\bin\Debug\net6.0\feulUp.runtimeconfig.json
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\bin\Debug\net6.0\feulUp.dll
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\bin\Debug\net6.0\feulUp.pdb
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\feulUp.csproj.AssemblyReference.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\feulUp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\feulUp.AssemblyInfoInputs.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\feulUp.AssemblyInfo.cs
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\feulUp.csproj.CoreCompileInputs.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\feulUp.dll
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\refint\feulUp.dll
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\feulUp.pdb
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\feulUp.genruntimeconfig.cache
+C:\Users\jwlud\OneDrive\Desktop\coding_dojo\CSharp\languageFund\oopWithCSharp\feulUp\obj\Debug\net6.0\ref\feulUp.dll

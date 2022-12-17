@@ -1,0 +1,28 @@
+@model Project
+
+<div>
+    <h1>@Model.Title</h1>
+    <p>@Model.Description</p>
+</div>
+
+<div>
+    <h2>US @Model.Supported.Sum(a => a.Amount).ToString("C")</h2>
+    <h5>Pledged of US $ @Model.Goal goal</h5>
+</div>
+
+<div>
+    <h2>@Model.Supported.Count</h2>
+    <h5>Supporters</h5>
+</div>
+
+<div>
+    <h2>End Date @Model.EndDate.ToString("MM/dd/yyy")</h2>
+</div>
+
+<div>
+            @{
+                Support support = new Support();
+            }
+            @await Html.PartialAsync("_Support", support)
+    
+</div>

@@ -1,0 +1,35 @@
+@model MyViewModel
+
+<div>
+    <h1>Discover</h1>
+</div>
+
+<table class="table table-striped">
+    <tr>
+        <th>Project Title</th>
+        <th>Total Funded</th>
+        <th>Creator</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (Project p in Model.AllProjects)
+    {
+        <tr>
+            <td>@p.Title</td>
+            <td>@p.Supported.Sum(a => a.Amount).ToString("C")</td>
+            <td>@p.Creator.FirstName @p.Creator.LastName</td>
+            <td>
+                <div class="d-flex">
+                <a href="projects/@p.ProjectId">View</a>
+                @{
+                    if(p.UserId == ViewBag.LoggedUser.UserId)
+                    {
+                    <form asp-action="DestroyProject" asp-controller="Home" method="post" asp-route-id="@p.ProjectId">
+                        <button class="btn btn-danger" value="Delete">Delete</button>
+                    </form>
+                    }
+                }
+                </div>
+            </td>
+        </tr>
+    }
+</table>

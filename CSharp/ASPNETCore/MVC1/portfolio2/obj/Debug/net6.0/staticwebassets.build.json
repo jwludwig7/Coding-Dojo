@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "TOKdkXD7v/OqWdy02R/DxgdypBxrqnTp6IdPqdcNjAw=",
+  "Source": "portfolio2",
+  "BasePath": "_content/portfolio2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "portfolio2\\wwwroot",
+      "Source": "portfolio2",
+      "ContentRoot": "C:\\Users\\jwlud\\OneDrive\\Desktop\\coding_dojo\\CSharp\\ASPNETCore\\MVC1\\portfolio2\\wwwroot\\",
+      "BasePath": "_content/portfolio2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jwlud\\OneDrive\\Desktop\\coding_dojo\\CSharp\\ASPNETCore\\MVC1\\portfolio2\\wwwroot\\images\\user (1).png",
+      "SourceId": "portfolio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jwlud\\OneDrive\\Desktop\\coding_dojo\\CSharp\\ASPNETCore\\MVC1\\portfolio2\\wwwroot\\",
+      "BasePath": "_content/portfolio2",
+      "RelativePath": "images/user (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\user (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\jwlud\\OneDrive\\Desktop\\coding_dojo\\CSharp\\ASPNETCore\\MVC1\\portfolio2\\wwwroot\\images\\user.png",
+      "SourceId": "portfolio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jwlud\\OneDrive\\Desktop\\coding_dojo\\CSharp\\ASPNETCore\\MVC1\\portfolio2\\wwwroot\\",
+      "BasePath": "_content/portfolio2",
+      "RelativePath": "images/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\user.png"
+    }
+  ]
+}

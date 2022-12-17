@@ -76,6 +76,12 @@ class Restroom:
         query = "DELETE FROM restrooms WHERE id = %(id)s;"
         return connectToMySQL(DATABASE).query_db(query,data)
 
+    # @classmethod
+    # def get_all_json(cls,data):
+    #     query = "SELECT location FROM restrooms WHERE user_id = %(user_id)s;"
+    #     results = connectToMySQL(DATABASE).query_db(query,data)
+    #     return results
+
     @staticmethod
     def validator(form_data):
         is_valid = True

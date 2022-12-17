@@ -365,6 +365,15 @@ function initMap() {
         addMarker(markers[i]);
     }
 
+    // function addSavedMarkers(props){
+    //     console.log(props.coords)
+    //     markers = new google.maps.Marker({
+    //         position: props.coords,
+    //         map: map,
+    //         animation: google.maps.Animation.DROP
+    //     })
+    // }
+
     // addMarker({
     //     coords: { lat: 40.81397876775059, lng: -74.38103027997886 },
     //     content: '<h3>Target East Hanover</h3>'

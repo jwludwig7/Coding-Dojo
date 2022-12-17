@@ -1,0 +1,34 @@
+@model MyViewModel
+@* fomr the viewModel we are bringing in guestlist, users, planweddingid that == id of wedding *@
+
+<div class="d-flex justify-content-between">
+    <h1>Welcome @ViewBag.LoggedUser.FirstName</h1>
+    <div class="d-flex justify-content-evenly">
+        <a href="/dashboard" class="p-2">Home</a>
+        <a href="weddings/new" class="p-2">Plan a Wedding</a>
+        <form asp-action="Logout" asp-controller="Home" method="post">
+            <button class="btn btn-danger p-2">Logout</button>
+        </form>
+    </div>
+</div>
+<hr>
+
+<div>
+    <h1>@Model.PlanWedding.WedderOne & @Model.PlanWedding.WedderTwo wedding</h1>
+    @* showing the wedderone and two *@
+</div>
+
+<div>
+    <h3>Date: @Model.PlanWedding.Date.ToString("MM/dd/yyyy")</h3>
+    @* date of the wedding and showing the date clean *@
+</div>
+
+<div>
+    <h3>Guests:</h3>
+    @foreach (Response m in Model.PlanWedding.GuestList)
+    @* foreach loop for the guestlist that is triggered by the rsvp *@
+    {
+        <p>@m.User.FirstName @m.User.LastName</p>
+        @* shows user firstname and last name *@
+    }
+</div>

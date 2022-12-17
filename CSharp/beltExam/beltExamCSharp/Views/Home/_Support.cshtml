@@ -1,0 +1,19 @@
+@model Support
+
+@{
+    if(@ViewBag.OneProject.UserId == @ViewBag.LoggedUser.UserId)
+    {
+        <h4>**Sorry cannot pledge to you own project**</h4>
+    } else {
+
+<form asp-action="CreateSupport" asp-controller="Home" method="post">
+    <div>
+        <label asp-for="Amount"></label>
+        <input asp-for="Amount" class="form-control">
+        <span asp-validation-for="Amount"></span>
+    </div>
+    <input type="hidden" asp-for="ProjectId" value="@ViewBag.OneProject.ProjectId">
+    <button class="btn btn-success">Support!</button>
+</form>
+    }
+}

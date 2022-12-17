@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Hzm+BrcGwIJ4ydFWNvHrbAD7qiDOmOMEjmHhWzjR+UM=",
+  "Source": "dojoSurvey",
+  "BasePath": "_content/dojoSurvey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

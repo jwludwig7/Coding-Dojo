@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@* <h1>@ViewData["Title"]</h1> *@
+<div class="d-flex justify-content-between">
+    <h3>Welcome @Context.Session.GetString("Username")</h3>
+
+    <form action="/logout" method="post">
+        <button value="Logout" class="btn btn-danger">Logout</button>
+    </form>
+</div>
+<hr>
+
+<div class="text-center">
+    <h1>@Context.Session.GetInt32("MyNum")</h1>
+</div>
+
+<div class="d-flex justify-content-center">
+    <form action="/plusone" method="post">
+        <button class="btn btn-primary m-2 border border-dark shadow" value="+1">+1</button>
+    </form>
+    <form action="/minusone" method="post">
+        <button class="btn btn-secondary m-2  border border-dark shadow" value="-1">-1</button>
+    </form>
+</div>
+<div class="d-flex justify-content-center">
+    <form action="/timestwo" method="post">
+        <button class="btn btn-warning m-2  border border-dark shadow" value="*2">X 2</button>
+    </form>
+    <form action="/random" method="post">
+        <button class="btn btn-success m-2  border border-dark shadow" value="Random">+ Random</button>
+    </form>
+</div>
+<div class="d-flex justify-content-center">
+<form action="/reset" method="post">
+    <button class="btn btn-info m-2 border border-dark shadow">Reset</button>
+</form>
+</div>

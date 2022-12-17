@@ -1,0 +1,24 @@
+@model List<Craft>
+
+<h1>All Crafts</h1>
+
+
+<div class="d-flex flex-wrap">
+@foreach (Craft c in Model)
+{
+    <div class="border p-2 rounded shadow m-3">
+        <img class="imageSize" src="@c.Image" alt="@c.Title">
+        <h4><a href="/crafts/@c.CraftId"> @c.Title</a></h4>
+        <h5>By: @c.Creator.Username</h5>
+        <h5>@c.Price.ToString("C")</h5>
+        <h5>@c.Quantity in stock</h5>
+        @if(c.UserId == Context.Session.GetInt32("UserId"))
+        {
+            <form asp-action="DestroyCraft" asp-controller="Home" method="post" asp-route-Id="@c.CraftId">
+                <button class="btn btn-danger">X</button>
+            </form>
+        }
+    </div>
+
+}
+</div>

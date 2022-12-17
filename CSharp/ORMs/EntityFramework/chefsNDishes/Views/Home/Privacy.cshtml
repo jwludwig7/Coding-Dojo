@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@* <h1>@ViewData["Title"]</h1> *@
+
+@model MyViewModel
+
+<div class="text-center">
+    <h1>Yum! Check out out tasty dishes!</h1>
+    <hr>
+</div>
+
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Chef</th>
+                <th>Tastiness</th>
+                <th>Calories</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (Dish d in Model.AllDishes)
+            {
+            <tr>
+                <td>@d.Name</td>
+                
+                
+                <td>@d.Chef.FirstName @d.Chef.LastName</td>
+                
+                <td>@d.Tastiness</td>
+                <td>@d.Calories</td>
+            </tr>
+            }
+
+        </tbody>
+
+    </table>
+</div>

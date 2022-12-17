@@ -1,0 +1,42 @@
+@model Dish
+
+<div class="text-center">
+    <h1>Add a dish</h1>
+</div>
+
+<div class="bg-light">
+    <form asp-action="CreateDish" asp-controller="Home" method="post">
+        <div class="mb-3 p-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-3">
+            <label asp-for="Calories"></label>
+            <input asp-for="Calories" class="form-control">
+            <span asp-validation-for="Calories" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-3">
+            <label asp-for="ChefId"></label>
+            <select asp-for="ChefId" class="form-select">
+                @foreach(Chef c in ViewBag.AllChefs)
+                {
+                <option value="@c.ChefId">@c.FirstName @c.LastName</option>
+                }
+            </select>      
+            <span asp-validation-for="ChefId" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-3">
+            <label asp-for="Tastiness"></label>
+            <select asp-for="Tastiness" class="form-control">
+                <option value="" disabled selected hidden>Select a Tastiness</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <span asp-validation-for="Tastiness" class="text-danger"></span>
+        </div>
+        <button class="btn btn-primary m-3" value="Submit">Add Dish</button>
+    </form>

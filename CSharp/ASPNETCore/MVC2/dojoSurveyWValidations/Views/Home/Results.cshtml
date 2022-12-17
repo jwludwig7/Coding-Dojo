@@ -1,0 +1,62 @@
+@* @model Survey *@
+@model List<Survey>
+
+<div class="d-flex justify-content-center p-2">
+    <div class="border border-secondary rounded p-4 bg-light shadow">
+
+        <div>
+            <h2>Submitted Info</h2>
+        </div>
+
+        @* <div>
+            <h5>Name:</h5>
+            <h6 class="text-info">@Model.Name</h6>
+            </div>
+
+            <div>
+            <h5>Dojo Location:</h5>
+            <h6 class="text-info">@Model.Location</h6>
+            </div>
+
+            <div>
+            <h5>Favorite Language:</h5>
+            <h6 class="text-info">@Model.Fav</h6>
+            </div>
+
+            <div>
+            <h5>Comment (optional):</h5>
+            <span>@{
+            if (Model.Comment == null)
+            {
+            <p class="text-muted">No Comment</p>
+            }
+            }
+            </span>
+            <h6 class="text-info">@Model.Comment</h6>
+            </div> *@
+        <div>
+            @foreach (Survey u in Model)
+            {
+                <div>
+                    <h5>Name: @u.Name</h5>
+                    <h5>Location: @u.Location</h5>
+                    <h5>Favorite Language: @u.Fav</h5>
+                    <span><h5>Comment:</h5>@{
+                            if (u.Comment == null)
+                            {
+                                <p class="text-muted">No Comment</p>
+                            }
+                            else
+                            {
+                                <h5>@u.Comment</h5>
+                            }
+                        }
+                    </span>
+                    @* <h5>Comment: @u.Comment</h5> *@
+                    <hr>
+                </div>
+            }
+        </div>
+        <button class="btn btn-secondary "><a href="/" class="text-white text-decoration-none">Go Back</a> </button>
+    </div>
+</div>

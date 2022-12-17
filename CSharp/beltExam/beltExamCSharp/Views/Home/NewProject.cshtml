@@ -1,0 +1,31 @@
+@model Project
+
+<div>
+    <h2>Start a Project</h2>
+</div>
+
+<div>
+    <form asp-action="CreateProject" asp-controller="Home" method="post">
+        <div class="mb-3">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" class="form-control">
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Goal"></label>
+            <input asp-for="Goal" class="form-control">
+            <span asp-validation-for="Goal" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="EndDate"></label>
+            <input asp-for="EndDate" class="form-control">
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control">
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <button class="btn btn-info">Get Started!</button>
+    </form>
+</div>

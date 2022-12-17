@@ -1,0 +1,26 @@
+@model Chef
+
+<div class="text-center">
+    <h1>Add a Chef</h1>
+</div>
+
+<div class="bg-light">
+    <form asp-action="CreateChef" asp-controller="Home" method="post">
+        <div class="mb-3 p-3">
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName" class="form-control">
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-3">
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName" class="form-control">
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-3">
+            <label asp-for="DOB"></label>
+            <input asp-for="DOB" class="form-control">
+            <span asp-validation-for="DOB" class="text-danger"></span>
+        </div>
+        <button class="btn btn-primary m-3" value="Submit">Add Chef</button>
+    </form>
+</div>
